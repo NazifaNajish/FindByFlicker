@@ -1,4 +1,4 @@
-# FindByFlicker
+# FindByFlickr
 
 A sample app which provides a feature of searching images based on users' query.
 
@@ -20,4 +20,4 @@ more images when the user scrolls to the bottom of the view.
 
 # Future enhancements
 
-. Auto suggestion can be implemented when user is typing the query in the text field.
+• Auto suggestion can be implemented when user is typing the query in the text field.
