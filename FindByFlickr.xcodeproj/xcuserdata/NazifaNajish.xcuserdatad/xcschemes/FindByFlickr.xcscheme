@@ -28,6 +28,26 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BD77DF9220EF84520006FD65"
+               BuildableName = "FindByFlickrTests.xctest"
+               BlueprintName = "FindByFlickrTests"
+               ReferencedContainer = "container:FindByFlickr.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
+         <TestableReference
+            skipped = "NO">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "BD77DFA020EF845F0006FD65"
+               BuildableName = "FindByFlickrUITests.xctest"
+               BlueprintName = "FindByFlickrUITests"
+               ReferencedContainer = "container:FindByFlickr.xcodeproj">
+            </BuildableReference>
+         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference

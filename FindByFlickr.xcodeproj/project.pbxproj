@@ -12,6 +12,8 @@
 		BD77DF8420EF38190006FD65 /* CacheImage.m in Sources */ = {isa = PBXBuildFile; fileRef = BD77DF8320EF38190006FD65 /* CacheImage.m */; };
 		BD77DF8920EF3ADD0006FD65 /* PhotoAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BD77DF8820EF3ADD0006FD65 /* PhotoAPI.m */; };
 		BD77DF8B20EF3C7C0006FD65 /* ErrorCodes.plist in Resources */ = {isa = PBXBuildFile; fileRef = BD77DF8A20EF3C7C0006FD65 /* ErrorCodes.plist */; };
+		BD77DF9620EF84530006FD65 /* FindByFlickrTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD77DF9520EF84530006FD65 /* FindByFlickrTests.m */; };
+		BD77DFA420EF845F0006FD65 /* FindByFlickrUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BD77DFA320EF845F0006FD65 /* FindByFlickrUITests.m */; };
 		BDBFBABF20EE57FE0069E584 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBFBABE20EE57FE0069E584 /* AppDelegate.m */; };
 		BDBFBAC220EE57FE0069E584 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBFBAC120EE57FE0069E584 /* ViewController.m */; };
 		BDBFBAC520EE57FE0069E584 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BDBFBAC320EE57FE0069E584 /* Main.storyboard */; };
@@ -20,6 +22,23 @@
 		BDBFBACD20EE581F0069E584 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBFBACC20EE581F0069E584 /* main.m */; };
 		BDBFBAD720EE63F60069E584 /* PhotoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = BDBFBAD620EE63F60069E584 /* PhotoCell.m */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BD77DF9820EF84530006FD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBFBAB220EE57FD0069E584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBFBAB920EE57FE0069E584;
+			remoteInfo = FindByFlickr;
+		};
+		BD77DFA620EF845F0006FD65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDBFBAB220EE57FD0069E584 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDBFBAB920EE57FE0069E584;
+			remoteInfo = FindByFlickr;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		BD77DF7B20EF36B80006FD65 /* Photo.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Photo.h; sourceTree = "<group>"; };
@@ -31,6 +50,12 @@
 		BD77DF8720EF3ADD0006FD65 /* PhotoAPI.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PhotoAPI.h; sourceTree = "<group>"; };
 		BD77DF8820EF3ADD0006FD65 /* PhotoAPI.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PhotoAPI.m; sourceTree = "<group>"; };
 		BD77DF8A20EF3C7C0006FD65 /* ErrorCodes.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ErrorCodes.plist; sourceTree = "<group>"; };
+		BD77DF9320EF84520006FD65 /* FindByFlickrTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindByFlickrTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD77DF9520EF84530006FD65 /* FindByFlickrTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindByFlickrTests.m; sourceTree = "<group>"; };
+		BD77DF9720EF84530006FD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BD77DFA120EF845F0006FD65 /* FindByFlickrUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindByFlickrUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD77DFA320EF845F0006FD65 /* FindByFlickrUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FindByFlickrUITests.m; sourceTree = "<group>"; };
+		BD77DFA520EF845F0006FD65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BDBFBABA20EE57FE0069E584 /* FindByFlickr.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindByFlickr.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BDBFBABD20EE57FE0069E584 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		BDBFBABE20EE57FE0069E584 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -46,6 +71,20 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		BD77DF9020EF84520006FD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD77DF9E20EF845F0006FD65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDBFBAB720EE57FE0069E584 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -94,10 +133,30 @@
 			path = NetworkManager;
 			sourceTree = "<group>";
 		};
+		BD77DF9420EF84530006FD65 /* FindByFlickrTests */ = {
+			isa = PBXGroup;
+			children = (
+				BD77DF9520EF84530006FD65 /* FindByFlickrTests.m */,
+				BD77DF9720EF84530006FD65 /* Info.plist */,
+			);
+			path = FindByFlickrTests;
+			sourceTree = "<group>";
+		};
+		BD77DFA220EF845F0006FD65 /* FindByFlickrUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BD77DFA320EF845F0006FD65 /* FindByFlickrUITests.m */,
+				BD77DFA520EF845F0006FD65 /* Info.plist */,
+			);
+			path = FindByFlickrUITests;
+			sourceTree = "<group>";
+		};
 		BDBFBAB120EE57FD0069E584 = {
 			isa = PBXGroup;
 			children = (
 				BDBFBABC20EE57FE0069E584 /* FindByFlickr */,
+				BD77DF9420EF84530006FD65 /* FindByFlickrTests */,
+				BD77DFA220EF845F0006FD65 /* FindByFlickrUITests */,
 				BDBFBABB20EE57FE0069E584 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -106,6 +165,8 @@
 			isa = PBXGroup;
 			children = (
 				BDBFBABA20EE57FE0069E584 /* FindByFlickr.app */,
+				BD77DF9320EF84520006FD65 /* FindByFlickrTests.xctest */,
+				BD77DFA120EF845F0006FD65 /* FindByFlickrUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -150,6 +211,42 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		BD77DF9220EF84520006FD65 /* FindByFlickrTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD77DF9A20EF84540006FD65 /* Build configuration list for PBXNativeTarget "FindByFlickrTests" */;
+			buildPhases = (
+				BD77DF8F20EF84520006FD65 /* Sources */,
+				BD77DF9020EF84520006FD65 /* Frameworks */,
+				BD77DF9120EF84520006FD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD77DF9920EF84530006FD65 /* PBXTargetDependency */,
+			);
+			name = FindByFlickrTests;
+			productName = FindByFlickrTests;
+			productReference = BD77DF9320EF84520006FD65 /* FindByFlickrTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BD77DFA020EF845F0006FD65 /* FindByFlickrUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD77DFA820EF845F0006FD65 /* Build configuration list for PBXNativeTarget "FindByFlickrUITests" */;
+			buildPhases = (
+				BD77DF9D20EF845F0006FD65 /* Sources */,
+				BD77DF9E20EF845F0006FD65 /* Frameworks */,
+				BD77DF9F20EF845F0006FD65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BD77DFA720EF845F0006FD65 /* PBXTargetDependency */,
+			);
+			name = FindByFlickrUITests;
+			productName = FindByFlickrUITests;
+			productReference = BD77DFA120EF845F0006FD65 /* FindByFlickrUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 		BDBFBAB920EE57FE0069E584 /* FindByFlickr */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BDBFBAD020EE581F0069E584 /* Build configuration list for PBXNativeTarget "FindByFlickr" */;
@@ -176,6 +273,14 @@
 				LastUpgradeCheck = 0930;
 				ORGANIZATIONNAME = Nazifa;
 				TargetAttributes = {
+					BD77DF9220EF84520006FD65 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDBFBAB920EE57FE0069E584;
+					};
+					BD77DFA020EF845F0006FD65 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = BDBFBAB920EE57FE0069E584;
+					};
 					BDBFBAB920EE57FE0069E584 = {
 						CreatedOnToolsVersion = 9.3;
 					};
@@ -195,11 +300,27 @@
 			projectRoot = "";
 			targets = (
 				BDBFBAB920EE57FE0069E584 /* FindByFlickr */,
+				BD77DF9220EF84520006FD65 /* FindByFlickrTests */,
+				BD77DFA020EF845F0006FD65 /* FindByFlickrUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		BD77DF9120EF84520006FD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD77DF9F20EF845F0006FD65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDBFBAB820EE57FE0069E584 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -214,6 +335,22 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		BD77DF8F20EF84520006FD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD77DF9620EF84530006FD65 /* FindByFlickrTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BD77DF9D20EF845F0006FD65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD77DFA420EF845F0006FD65 /* FindByFlickrUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BDBFBAB620EE57FE0069E584 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -230,6 +367,19 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BD77DF9920EF84530006FD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBFBAB920EE57FE0069E584 /* FindByFlickr */;
+			targetProxy = BD77DF9820EF84530006FD65 /* PBXContainerItemProxy */;
+		};
+		BD77DFA720EF845F0006FD65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDBFBAB920EE57FE0069E584 /* FindByFlickr */;
+			targetProxy = BD77DFA620EF845F0006FD65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		BDBFBAC320EE57FE0069E584 /* Main.storyboard */ = {
@@ -251,6 +401,80 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		BD77DF9B20EF84540006FD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56GUDKSF9X;
+				INFOPLIST_FILE = FindByFlickrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazifanajish.FindByFlickrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindByFlickr.app/FindByFlickr";
+			};
+			name = Debug;
+		};
+		BD77DF9C20EF84540006FD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56GUDKSF9X;
+				INFOPLIST_FILE = FindByFlickrTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazifanajish.FindByFlickrTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindByFlickr.app/FindByFlickr";
+			};
+			name = Release;
+		};
+		BD77DFA920EF845F0006FD65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56GUDKSF9X;
+				INFOPLIST_FILE = FindByFlickrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazifanajish.FindByFlickrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindByFlickr;
+			};
+			name = Debug;
+		};
+		BD77DFAA20EF845F0006FD65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 56GUDKSF9X;
+				INFOPLIST_FILE = FindByFlickrUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nazifanajish.FindByFlickrUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindByFlickr;
+			};
+			name = Release;
+		};
 		BDBFBACE20EE581F0069E584 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -400,6 +624,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		BD77DF9A20EF84540006FD65 /* Build configuration list for PBXNativeTarget "FindByFlickrTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD77DF9B20EF84540006FD65 /* Debug */,
+				BD77DF9C20EF84540006FD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD77DFA820EF845F0006FD65 /* Build configuration list for PBXNativeTarget "FindByFlickrUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD77DFA920EF845F0006FD65 /* Debug */,
+				BD77DFAA20EF845F0006FD65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BDBFBAB520EE57FD0069E584 /* Build configuration list for PBXProject "FindByFlickr" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
