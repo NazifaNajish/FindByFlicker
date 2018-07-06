@@ -7,6 +7,7 @@ A sample app which provides a feature of searching images based on users' query.
 • The app supports endless scrolling, automatically requesting and displaying
 more images when the user scrolls to the bottom of the view.
 • The app does not use third-party libraries.
+• UI tests written.
 
 
 # Access
